@@ -1,0 +1,5 @@
+@ObjectModel.leadingEntity.name: 'ZI_EmployeeTable_SI'
+define service ZUI_EMPLOYEETABLE {
+  expose ZI_EMPLOYEETABLE_SI as EmployeeTableAll;
+  expose ZI_EMPLOYEETABLE_BKR as EmployeeTable;
+}
